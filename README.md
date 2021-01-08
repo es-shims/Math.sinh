@@ -7,6 +7,8 @@
 
 [![npm badge][npm-badge-png]][package-url]
 
+> :warning: This package is not published on `npm`, because it depends on https://github.com/es-shims/Math.expm1 which is not published yet.
+
 An ESnext spec-compliant `Math.sinh` shim/polyfill/replacement that works as far down as ES3.
 
 This package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES3-supported environment and complies with the [spec](https://tc39.es/ecma262/#sec-map-objects).
