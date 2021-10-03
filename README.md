@@ -1,5 +1,7 @@
 # Math.sinh <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
+[![github actions][actions-image]][actions-url]
+[![coverage][codecov-image]][codecov-url]
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
@@ -40,3 +42,7 @@ Simply clone the repo, `npm install`, and run `npm test`
 [license-url]: LICENSE
 [downloads-image]: https://img.shields.io/npm/dm/math.sinh.svg
 [downloads-url]: https://npm-stat.com/charts.html?package=math.sinh
+[codecov-image]: https://codecov.io/gh/es-shims/Math.sinh/branch/main/graphs/badge.svg
+[codecov-url]: https://app.codecov.io/gh/es-shims/Math.sinh/
+[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/es-shims/Math.sinh
+[actions-url]: https://github.com/es-shims/Math.sinh/actions
