@@ -5,14 +5,15 @@
 var implementation = require('./implementation');
 
 module.exports = function getPolyfill() {
-	var native = Math.sinh;
-	if (!native
+	var original = Math.sinh;
+	if (
+		!original
 		// Chrome < 40 sinh returns ∞ for large numbers
-		|| native(710) === Infinity
+		|| original(710) === Infinity
 		// node 0.11 has an imprecise Math.sinh with very small numbers
-		|| native(-2e-17) !== -2e-17
+		|| original(-2e-17) !== -2e-17
 	) {
 		return implementation;
 	}
-	return native;
+	return original;
 };
